@@ -31,6 +31,26 @@ button {
   pointer-events: none;
 }
 
+.bg-image {
+  position: fixed;
+  background: #333 url('../src/images/pexels24.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  /* background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; */
+}
+
+.brght {
+  opacity: 0.9;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -77,7 +97,7 @@ button {
   margin: auto;
   /* margin-top: 3em; */
   overflow: hidden;
-  background-image: url(./images/script-n-hammer.png);
+  background: rgba(51, 51, 51, 0) url(./images/script-n-hammer.png);
   /* background-size: 100% auto; */
   background-repeat: no-repeat;
   background-size: contain;

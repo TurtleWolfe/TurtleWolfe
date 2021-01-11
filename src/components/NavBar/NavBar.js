@@ -34,7 +34,7 @@ const NavBar = ({ icon, iconFCC, title }) => {
 };
 
 NavBar.defaultProps = {
-  title: 'fccTempLate',
+  title: 'TurtleWolfe.com',
   icon: 'fab fa-github',
   iconFCC: 'fab fa-free-code-camp'
 };

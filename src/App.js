@@ -1,11 +1,12 @@
 import logo from './logo.svg';
-import NavBar from './NavBar';
-import About from "./components/pages/About";
-import Quote from "./components/pages/quote/quote";
-import MarkDown from "./components/pages/markdown/markdown";
-import Calculator from "./components/pages/calculator/Calculator";
-import Drum from "./components/pages/drum/Drum";
-import Pomodoro from "./components/pages/pomodoro/Pomodoro";
+import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
+// import About from "./components/pages/About";
+// import Quote from "./components/pages/quote/quote";
+// import MarkDown from "./components/pages/markdown/markdown";
+// import Calculator from "./components/pages/calculator/Calculator";
+// import Drum from "./components/pages/drum/Drum";
+// import Pomodoro from "./components/pages/pomodoro/Pomodoro";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
@@ -19,10 +20,10 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <header className="App-header">
+        <header className="App-header bg-image">
           <Switch>
             <Route exact path='/fccTempLate' render={props => (
-              <Container>
+              <Container className="brght">
                 <a
                   className="App-link"
                   href="https://github.com/TurtleWolfe/fccTempLate"
@@ -59,14 +60,15 @@ function App() {
                 </h5>
               </Container>
             )} />
-            <Route exact path='/quote' component={Quote} />
-            <Route exact path='/markdown' component={MarkDown} />
-            <Route exact path='/calculator' component={Calculator} />
-            <Route exact path='/drum' component={Drum} />
-            <Route exact path='/pomodoro' component={Pomodoro} />
-            <Route exact path='/about' component={About} />
+            {/* <Route exact path='/quote' component={Quote} /> */}
+            {/* <Route exact path='/markdown' component={MarkDown} /> */}
+            {/* <Route exact path='/calculator' component={Calculator} /> */}
+            {/* <Route exact path='/drum' component={Drum} /> */}
+            {/* <Route exact path='/pomodoro' component={Pomodoro} /> */}
+            {/* <Route exact path='/about' component={About} /> */}
           </Switch>
         </header>
+        <Footer />
       </div>
     </Router>
   );
