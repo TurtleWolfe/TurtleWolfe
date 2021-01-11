@@ -69,6 +69,11 @@ button {
   /* padding-top: 5%; */
 }
 
+/* viewport height */
+#welcome-section {
+  height: 100vh;
+}
+
 .App-link {
   color: #61dafb;
   /* color: #ffa500; */

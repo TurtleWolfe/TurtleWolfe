@@ -7,8 +7,9 @@ import { Navbar, Nav } from 'react-bootstrap';
 import './NavBar.css';
 const NavBar = ({ icon, iconFCC, title }) => {
   return (
-    <Navbar collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
+    <Navbar id="navbar" collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="https://github.com/TurtleWolfe/TurtleWolfe"
+        id="profile-link"
         // className='lob'
         target="_blank"
         rel="noopener noreferrer"
@@ -21,6 +22,7 @@ const NavBar = ({ icon, iconFCC, title }) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav collapseOnSelect className="mr-auto">
           <Nav.Link as={Link} to="/" href="/" className='slab'>Home</Nav.Link>
+          {/* <Nav.Link as={Link} to="#projects" href="#projects" className='slab'>Portfolio</Nav.Link> */}
           <Nav.Link as={Link} to="/quote" href="/quote" className='slab'>Quote</Nav.Link>
           <Nav.Link as={Link} to="/markdown" href="/markdown" className='slab'>Markdown</Nav.Link>
           <Nav.Link as={Link} to="/calculator" href="/calculator" className='slab'>Calculator</Nav.Link>
