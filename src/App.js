@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
-// import About from "./components/pages/About";
+import About from "./components/About/About";
 // import Quote from "./components/pages/quote/quote";
 // import MarkDown from "./components/pages/markdown/markdown";
 // import Calculator from "./components/pages/calculator/Calculator";
@@ -22,10 +22,10 @@ function App() {
         <NavBar />
         <header className="App-header bg-image">
           <Switch>
-            <Route exact path='/fccTempLate' render={props => (
+            <Route exact path='/' render={props => (
               <Container>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel nobis aliquam, exercitationem consequatur, quaerat deserunt, vitae ea nostrum quod numquam aspernatur animi delectus ut. Officiis explicabo nihil ut veritatis sit quos optio delectus nisi reprehenderit
+                <p className="App-Orange" >
+                  Custome Apps & Sites for Small Companies
                 </p>
 
                 <a
@@ -62,8 +62,14 @@ function App() {
                     <i className="fab fa-twitch"></i> These Episodes on Twitch <i className="fab fa-twitch"></i>
                   </a>
                 </h5>
-                <p className="App-Lorem" >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel nobis aliquam, exercitationem consequatur, quaerat deserunt, vitae ea nostrum quod numquam aspernatur animi delectus ut. Officiis explicabo nihil ut veritatis sit quos optio delectus nisi reprehenderit
+                <p className="App-Orange" >
+                  Node React Linux Docker
+                </p>
+                <p className="App-Orange" >
+                  Mobile-First Responsive Graphic Design SVG
+                </p>
+                <p className="App-Orange App-Lorem" >
+                  AWS & Google Cloud
                 </p>
 
               </Container>
@@ -73,7 +79,7 @@ function App() {
             {/* <Route exact path='/calculator' component={Calculator} /> */}
             {/* <Route exact path='/drum' component={Drum} /> */}
             {/* <Route exact path='/pomodoro' component={Pomodoro} /> */}
-            {/* <Route exact path='/about' component={About} /> */}
+            <Route exact path='/about' component={About} />
           </Switch>
         </header>
         <Footer />

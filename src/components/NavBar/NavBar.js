@@ -9,18 +9,18 @@ const NavBar = ({ icon, iconFCC, title }) => {
   return (
     <Navbar collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="https://github.com/TurtleWolfe/TurtleWolfe"
-        className='lob'
+        // className='lob'
         target="_blank"
         rel="noopener noreferrer"
         title="TempLate Scaffolding for Free Code Camp Projects, with FontAwesome, React-Router & Analytics">
-        <h3>
+        <h5>
           <i className={iconFCC} /> {title} <i className={icon} />
-        </h3>
+        </h5>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav collapseOnSelect className="mr-auto">
-          <Nav.Link as={Link} to="/fccTempLate" href="/fccTempLate" className='slab'>Home</Nav.Link>
+          <Nav.Link as={Link} to="/" href="/" className='slab'>Home</Nav.Link>
           <Nav.Link as={Link} to="/quote" href="/quote" className='slab'>Quote</Nav.Link>
           <Nav.Link as={Link} to="/markdown" href="/markdown" className='slab'>Markdown</Nav.Link>
           <Nav.Link as={Link} to="/calculator" href="/calculator" className='slab'>Calculator</Nav.Link>

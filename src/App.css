@@ -44,7 +44,7 @@ button {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .brght {
@@ -103,6 +103,8 @@ button {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+  -webkit-filter: drop-shadow(5px 5px 3px #000000);
+  filter: drop-shadow(5px 5px 3px #000000);
 }
 
 .App-hammer img {
@@ -120,6 +122,13 @@ button {
 .App-Lorem {
   margin-bottom: 100px;
   padding-bottom: 100px;
+  font-family: 'Lobster', cursive;
+}
+
+.App-Orange {
+  color: #ffa500;
+  /* font-family: 'Special Elite', cursive; */
+  font-family: 'Lobster', cursive;
 }
 
 @media screen and (min-width: 600px) {
