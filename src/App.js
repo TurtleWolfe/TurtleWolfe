@@ -23,10 +23,14 @@ function App() {
         <header className="App-header bg-image">
           <Switch>
             <Route exact path='/fccTempLate' render={props => (
-              <Container className="brght">
+              <Container>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel nobis aliquam, exercitationem consequatur, quaerat deserunt, vitae ea nostrum quod numquam aspernatur animi delectus ut. Officiis explicabo nihil ut veritatis sit quos optio delectus nisi reprehenderit
+                </p>
+
                 <a
                   className="App-link"
-                  href="https://github.com/TurtleWolfe/fccTempLate"
+                  href="https://github.com/TurtleWolfe/TurtleWolfe"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="fccTempLate"
@@ -58,6 +62,10 @@ function App() {
                     <i className="fab fa-twitch"></i> These Episodes on Twitch <i className="fab fa-twitch"></i>
                   </a>
                 </h5>
+                <p className="App-Lorem" >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel nobis aliquam, exercitationem consequatur, quaerat deserunt, vitae ea nostrum quod numquam aspernatur animi delectus ut. Officiis explicabo nihil ut veritatis sit quos optio delectus nisi reprehenderit
+                </p>
+
               </Container>
             )} />
             {/* <Route exact path='/quote' component={Quote} /> */}

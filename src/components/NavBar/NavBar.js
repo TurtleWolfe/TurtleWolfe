@@ -8,7 +8,7 @@ import './NavBar.css';
 const NavBar = ({ icon, iconFCC, title }) => {
   return (
     <Navbar collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="https://github.com/TurtleWolfe/fccTempLate"
+      <Navbar.Brand href="https://github.com/TurtleWolfe/TurtleWolfe"
         className='lob'
         target="_blank"
         rel="noopener noreferrer"
