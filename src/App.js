@@ -66,12 +66,17 @@ function App() {
                   Node React Linux Docker
                 </p>
                 <p className="App-Orange" >
+                  Full Stack AWS & Google Cloud
+                </p>
+                <p className="App-Orange" >
                   Mobile-First Responsive Graphic Design SVG
                 </p>
-                <p className="App-Orange App-Lorem" >
-                  AWS & Google Cloud
+                <p className="App-Orange" >
+                  PhotoShop or GIMP & CAD or SketchUp
                 </p>
-
+                <p className="App-Orange App-Lorem" >
+                  3D Augmented Reality with C# in Unity
+                </p>
               </Container>
             )} />
             {/* <Route exact path='/quote' component={Quote} /> */}

@@ -9,6 +9,8 @@
   margin: 0 auto;
   width: 60%;
   padding-bottom: 350px;
+  -webkit-filter: drop-shadow(7px 7px 5px #000000);
+  filter: drop-shadow(7px 7px 5px #000000);
 }
 
 @media screen and (min-width: 600px) {
@@ -24,7 +26,7 @@
 @media screen and (min-width: 960px) {
   /* Screens above 960px width */
   .container {
-    margin-top: 12%;
+    margin-top: 7%;
     padding-top: 0px;
   }
 }
