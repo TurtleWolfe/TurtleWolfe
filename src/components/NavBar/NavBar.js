@@ -4,6 +4,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
+// import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 import './NavBar.css';
 const NavBar = ({ icon, iconFCC, title }) => {
   return (
@@ -23,6 +25,13 @@ const NavBar = ({ icon, iconFCC, title }) => {
         <Nav collapseOnSelect className="mr-auto">
           <Nav.Link as={Link} to="/" href="/" className='slab'>Home</Nav.Link>
           {/* <Nav.Link as={Link} to="#projects" href="#projects" className='slab'>Portfolio</Nav.Link> */}
+          <NavHashLink
+            smooth
+            to="/#projects"
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+          // etc...
+          >Link to Hash Fragment</NavHashLink>
           <Nav.Link as={Link} to="/quote" href="/quote" className='slab'>Quote</Nav.Link>
           <Nav.Link as={Link} to="/markdown" href="/markdown" className='slab'>Markdown</Nav.Link>
           <Nav.Link as={Link} to="/calculator" href="/calculator" className='slab'>Calculator</Nav.Link>

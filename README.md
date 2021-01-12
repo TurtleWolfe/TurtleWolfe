@@ -148,6 +148,29 @@ touch src/components/Pomodoro/StopWatch.js
 touch src/components/Pomodoro/StopWatch.css
 ```
 
+```bash
+
+ npx create-react-app . --use-npm
+ code .
+ exit
+ npm i gh-pages -D
+ npm i react-bootstrap
+ npm i react-router-dom
+ npm install --save react-router-hash-link
+ cd src
+ cd ..
+ mkdir src/components
+ mkdir src/images
+ rm -rf .git
+ npm init
+ git init
+ git add .
+ git commit -m "Custom Apps for Small Companies"
+ git remote add origin git@github.com:TurtleWolfe/TurtleWolfe.git
+ git push --set-upstream origin master
+ npm run deploy
+```
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

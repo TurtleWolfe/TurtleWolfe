@@ -30,7 +30,7 @@ function App() {
               <Container id="welcome-section">
                 <p className="App-Orange">
                   <h1>
-                    Custome Apps & Sites for Small Companies
+                    Custom Apps & Sites for Small Companies
                   </h1>
                 </p>
                 <a
