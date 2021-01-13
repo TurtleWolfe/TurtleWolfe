@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import About from "./components/About/About";
-// import Quote from "./components/pages/quote/quote";
-// import MarkDown from "./components/pages/markdown/markdown";
-// import Calculator from "./components/pages/calculator/Calculator";
-// import Drum from "./components/pages/drum/Drum";
-// import Pomodoro from "./components/pages/pomodoro/Pomodoro";
+import APIs from "./components/APIs/APIs";
+import FccD3 from "./components/FccD3/FccD3";
+import FccFrontEnd from "./components/FccFrontEnd/FccFrontEnd";
+import SaStudio from "./components/SaStudio/SaStudio";
+import WordPress from "./components/WordPress/WordPress";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Container } from 'react-bootstrap';
@@ -153,11 +153,11 @@ function App() {
               </Container>
             )} />
             {/* <Route href="#projects" /> */}
-            {/* <Route exact path='/quote' component={Quote} /> */}
-            {/* <Route exact path='/markdown' component={MarkDown} /> */}
-            {/* <Route exact path='/calculator' component={Calculator} /> */}
-            {/* <Route exact path='/drum' component={Drum} /> */}
-            {/* <Route exact path='/pomodoro' component={Pomodoro} /> */}
+            <Route exact path='/APIs' component={APIs} />
+            <Route exact path='/FccD3' component={FccD3} />
+            <Route exact path='/FccFrontEnd' component={FccFrontEnd} />
+            <Route exact path='/SaStudio' component={SaStudio} />
+            <Route exact path='/WordPress' component={WordPress} />
             <Route exact path='/about' component={About} />
           </Switch>
         </header>

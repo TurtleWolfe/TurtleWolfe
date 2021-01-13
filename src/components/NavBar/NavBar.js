@@ -23,21 +23,98 @@ const NavBar = ({ icon, iconFCC, title }) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav collapseOnSelect className="mr-auto">
-          <Nav.Link as={Link} to="/" href="/" className='slab'>Home</Nav.Link>
-          {/* <Nav.Link as={Link} to="#projects" href="#projects" className='slab'>Portfolio</Nav.Link> */}
           <NavHashLink
+            as={Link}
+            to="/"
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+            href="/"
+            className='slab'
+          >
+            Home
+          </NavHashLink>
+
+          {/* <NavHashLink
             smooth
             to="/#projects"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
           // etc...
-          >Link to Hash Fragment</NavHashLink>
-          <Nav.Link as={Link} to="/quote" href="/quote" className='slab'>Quote</Nav.Link>
-          <Nav.Link as={Link} to="/markdown" href="/markdown" className='slab'>Markdown</Nav.Link>
-          <Nav.Link as={Link} to="/calculator" href="/calculator" className='slab'>Calculator</Nav.Link>
-          <Nav.Link as={Link} to="/drum" href="/drum" className='slab'>Drum</Nav.Link>
-          <Nav.Link as={Link} to="/pomodoro" href="/pomodoro" className='slab'>Pomodoro</Nav.Link>
-          <Nav.Link as={Link} to="/about" href="/about" className='slab'>About</Nav.Link>
+          >
+          Link to Hash Fragment
+          </NavHashLink> */}
+
+          {/* APIs */}
+          <NavHashLink
+            as={Link}
+            to="/APIs"
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+            href="/APIs"
+            className='slab'
+          >
+            APIs
+          </NavHashLink>
+
+          {/* FccD3 */}
+          <NavHashLink
+            as={Link}
+            to="/FccD3"
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+            href="/FccD3"
+            className='slab'
+          >
+            FccD3
+          </NavHashLink>
+
+          {/* FccFrontEnd */}
+          <NavHashLink
+            as={Link}
+            to="/FccFrontEnd"
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+            href="/FccFrontEnd"
+            className='slab'
+          >
+            FccFrontEnd
+          </NavHashLink>
+
+          {/* SaStudio */}
+          <NavHashLink
+            as={Link}
+            to="/SaStudio"
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+            href="/SaStudio"
+            className='slab'
+          >
+            SaStudio
+          </NavHashLink>
+
+          {/* WordPress */}
+          <NavHashLink
+            as={Link}
+            to="/WordPress"
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+            href="/WordPress"
+            className='slab'
+          >
+            WordPress
+          </NavHashLink>
+
+          {/* About */}
+          <NavHashLink
+            as={Link}
+            to="/about"
+            activeClassName="selected"
+            activeStyle={{ color: 'red' }}
+            href="/about"
+            className='slab'
+          >
+            About
+          </NavHashLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
