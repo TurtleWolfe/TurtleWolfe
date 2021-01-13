@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Image } from 'react-bootstrap';
 import fccCert from '../../images/fccCertificate.png';
+import UdemyAPI from '../../images/UdemyAPI.jpeg';
 import './About.css';
 
 
@@ -111,6 +112,9 @@ export const About = () => {
       </Row> */}
 
       <br></br>
+      <Row className="justify-content-center">
+        <Image src={UdemyAPI} fluid />
+      </Row>
       <Row className="justify-content-center">
         <Image src={fccCert} fluid />
       </Row>

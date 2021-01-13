@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Image } from 'react-bootstrap';
-import fccCert from '../../images/fccCertificate.png';
+import UdemyAPI from '../../images/UdemyAPI.jpeg';
 import './APIs.css';
 
 
@@ -37,19 +37,19 @@ export const About = () => {
         <i className="ispace fab fa-github"></i> GitHub <i className="ispace fab fa-github"></i>
       </Row>
 
-      <strong>  {/* Twitch */}
+      <strong>  {/* Udemy */}
         <Row as="a"
           className="ispace App-link justify-content-center"
-          href="https://www.twitch.tv/turtlewolfe"
+          href="https://www.udemy.com/certificate/UC-8033cc47-612f-4a7b-afc3-c7a8c9273686/"
           target="_blank"
           rel="noopener noreferrer"
-          title="Learn React"
+          title="Create a real world backend for a bootcamp directory app"
         >
-          <i class="ispace fab fa-twitch"></i> Twitch <i class="ispace fab fa-twitch"></i>
+          <i class="ispace fab fa-twitch"></i> Udemy API Master Class <i class="ispace fab fa-twitch"></i>
         </Row>
       </strong>
 
-      <Row as="a" // Twitter
+      {/* <Row as="a" // Twitter
         className="ispace App-link justify-content-center"
         // href="https://twitter.com/JonPohlner?lang=en"
         href="https://twitter.com/ScriptHammer?lang=en"
@@ -58,9 +58,9 @@ export const About = () => {
         title="Learn React"
       >
         <i class="ispace fab fa-twitter"></i> Twitter <i class="ispace fab fa-twitter"></i>
-      </Row>
+      </Row> */}
 
-      <Row as="a" // YouTube
+      {/* <Row as="a" // YouTube
         className="ispace App-link justify-content-center"
         href="https://www.youtube.com/playlist?list=PLETG2T1KvnioI_uRwEx1-efEI6EpoN_ZR"
         target="_blank"
@@ -68,9 +68,9 @@ export const About = () => {
         title="YouTube/TW"
       >
         <i className="ispace fab fa-youtube"></i> YouTube <i className="ispace fab fa-youtube"></i>
-      </Row>
+      </Row> */}
 
-      <Row as="a" // LinkedIn
+      {/* <Row as="a" // LinkedIn
         className="ispace App-link justify-content-center"
         href="https://www.linkedin.com/in/jonathan-pohlner-87796377/"
         target="_blank"
@@ -78,41 +78,11 @@ export const About = () => {
         title="Learn React"
       >
         <i className="ispace fab fa-linkedin"></i> LinkedIn <i className="ispace fab fa-linkedin"></i>
-      </Row>
-
-      {/* <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://fontawesome.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Awesome Fonts"
-      >
-        <i className="ispace fab fa-font-awesome-alt"></i> Font Awesome <i className="ispace fab fa-font-awesome-alt"></i>
-      </Row>
-
-      <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Markdown Cheatsheet"
-      >
-        <i className="ispace fab fa-markdown"></i> Markdown Cheatsheet <i className="ispace fab fa-markdown"></i>
-      </Row>
-
-      <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://css-tricks.com/essential-meta-tags-social-media/"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="The Essential Meta Tags for Social Media"
-      >
-        <i className="ispace far fa-file-code"></i> Essential Meta Tags<i className="ispace far fa-file-code"></i>
       </Row> */}
 
       <br></br>
       <Row className="justify-content-center">
-        <Image src={fccCert} fluid />
+        <Image src={UdemyAPI} fluid />
       </Row>
     </Container>
   );
