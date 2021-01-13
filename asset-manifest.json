@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.edc9e7c3.chunk.css",
-    "main.js": "/static/js/main.dbe38a20.chunk.js",
-    "main.js.map": "/static/js/main.dbe38a20.chunk.js.map",
+    "main.js": "/static/js/main.b9013833.chunk.js",
+    "main.js.map": "/static/js/main.b9013833.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.72764f42.js",
     "runtime-main.js.map": "/static/js/runtime-main.72764f42.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -16,6 +16,7 @@
     "static/js/2.87ce670f.chunk.js.LICENSE.txt": "/static/js/2.87ce670f.chunk.js.LICENSE.txt",
     "static/media/SaStudio(1).ff4dfec2.png": "/static/media/SaStudio(1).ff4dfec2.png",
     "static/media/SaStudio.08911e1c.png": "/static/media/SaStudio.08911e1c.png",
+    "static/media/UdemyAPI.2ccec7dc.jpeg": "/static/media/UdemyAPI.2ccec7dc.jpeg",
     "static/media/fccCertificate.34f70f5f.png": "/static/media/fccCertificate.34f70f5f.png",
     "static/media/fccTempLate(1).956c05aa.png": "/static/media/fccTempLate(1).956c05aa.png",
     "static/media/fccTempLate(2).f8c8ec1c.png": "/static/media/fccTempLate(2).f8c8ec1c.png",
@@ -30,6 +31,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.87ce670f.chunk.js",
     "static/css/main.edc9e7c3.chunk.css",
-    "static/js/main.dbe38a20.chunk.js"
+    "static/js/main.b9013833.chunk.js"
   ]
 }
