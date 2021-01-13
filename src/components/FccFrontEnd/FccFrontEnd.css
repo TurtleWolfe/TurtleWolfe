@@ -4,26 +4,30 @@
   margin-right: 10px;
 }
 
-.About img {
+.FccFrontEndd {
+  padding-bottom: 400px;
+}
+
+.FccFrontEndd img {
   display: block;
   margin: 0 auto;
   width: 60%;
-  padding-bottom: 350px;
+  padding-bottom: 50px;
   -webkit-filter: drop-shadow(7px 7px 5px #000000);
   filter: drop-shadow(7px 7px 5px #000000);
 }
 
-/* .About {
+/* .FccFrontEndd {
   background-color: rgba(255, 0, 0, 0.1);
 } */
 
 @media screen and (min-width: 600px) {
   /* Screens above 600px width */
-  .About img {
+  .FccFrontEndd img {
     display: block;
     margin: 0 auto;
     width: 40%;
-    padding-bottom: 250px;
+    padding-bottom: 25px;
   }
 }
 

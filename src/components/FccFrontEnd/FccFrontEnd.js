@@ -1,55 +1,43 @@
 import React from 'react';
 import { Container, Row, Image } from 'react-bootstrap';
+import fccTemp0 from './images/fccTempLate.png';
+import fccTemp1 from './images/fccTempLate(1).png';
+import fccTemp2 from './images/fccTempLate(2).png';
+import fccTemp3 from './images/fccTempLate(3).png';
+import fccTemp4 from './images/fccTempLate(4).png';
 import fccCert from '../../images/fccCertificate.png';
+
+
 import './FccFrontEnd.css';
 
 
 export const About = () => {
   return (
-    <Container className="About justify-content-center">
-      {/* <ul>
-          <li>
-            <a href="https://codepen.io/TurtleWolf/">
-              <i className="fa fa-codepen" aria-hidden="true" /> CodePen
-                </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/groups/266866570176327/">
-              <i className="fa fa-facebook-official" aria-hidden="true" />{" "}
-                  DangerousMinds
-                </a>
-          </li>
-          <li>
-            <a href="https://www.freecodecamp.org/turtlewolf">
-              <i className="fa fa-free-code-camp" aria-hidden="true" />{" "}
-                  FreeCodeCamp
-                </a>
-          </li>
-        </ul> */}
+    <Container className="FccFrontEndd justify-content-center">
 
       <Row as="a" // GitHub
         className="ispace App-link justify-content-center"
-        href="https://github.com/TurtleWolfe"
+        href="https://github.com/TurtleWolfe/fccTempLate"
         target="_blank"
         rel="noopener noreferrer"
-        title="GitHub"
+        title="Repo for Front Library Projects"
       >
         <i className="ispace fab fa-github"></i> GitHub <i className="ispace fab fa-github"></i>
       </Row>
 
-      <strong>  {/* Twitch */}
+      <strong>  {/* fccTempLate */}
         <Row as="a"
           className="ispace App-link justify-content-center"
-          href="https://www.twitch.tv/turtlewolfe"
+          href="https://turtlewolfe.github.io/fccTempLate/"
           target="_blank"
           rel="noopener noreferrer"
-          title="Learn React"
+          title="FrontEnd Libraries React Projects per freeCodeCamp"
         >
-          <i class="ispace fab fa-twitch"></i> Twitch <i class="ispace fab fa-twitch"></i>
+          <i class="ispace fab fa-twitch"></i> https://turtlewolfe.github.io/fccTempLate/ <i class="ispace fab fa-twitch"></i>
         </Row>
       </strong>
 
-      <Row as="a" // Twitter
+      {/* <Row as="a" // Twitter
         className="ispace App-link justify-content-center"
         // href="https://twitter.com/JonPohlner?lang=en"
         href="https://twitter.com/ScriptHammer?lang=en"
@@ -58,9 +46,9 @@ export const About = () => {
         title="Learn React"
       >
         <i class="ispace fab fa-twitter"></i> Twitter <i class="ispace fab fa-twitter"></i>
-      </Row>
+      </Row> */}
 
-      <Row as="a" // YouTube
+      {/* <Row as="a" // YouTube
         className="ispace App-link justify-content-center"
         href="https://www.youtube.com/playlist?list=PLETG2T1KvnioI_uRwEx1-efEI6EpoN_ZR"
         target="_blank"
@@ -68,9 +56,9 @@ export const About = () => {
         title="YouTube/TW"
       >
         <i className="ispace fab fa-youtube"></i> YouTube <i className="ispace fab fa-youtube"></i>
-      </Row>
+      </Row> */}
 
-      <Row as="a" // LinkedIn
+      {/* <Row as="a" // LinkedIn
         className="ispace App-link justify-content-center"
         href="https://www.linkedin.com/in/jonathan-pohlner-87796377/"
         target="_blank"
@@ -78,39 +66,24 @@ export const About = () => {
         title="Learn React"
       >
         <i className="ispace fab fa-linkedin"></i> LinkedIn <i className="ispace fab fa-linkedin"></i>
-      </Row>
-
-      {/* <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://fontawesome.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Awesome Fonts"
-      >
-        <i className="ispace fab fa-font-awesome-alt"></i> Font Awesome <i className="ispace fab fa-font-awesome-alt"></i>
-      </Row>
-
-      <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Markdown Cheatsheet"
-      >
-        <i className="ispace fab fa-markdown"></i> Markdown Cheatsheet <i className="ispace fab fa-markdown"></i>
-      </Row>
-
-      <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://css-tricks.com/essential-meta-tags-social-media/"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="The Essential Meta Tags for Social Media"
-      >
-        <i className="ispace far fa-file-code"></i> Essential Meta Tags<i className="ispace far fa-file-code"></i>
       </Row> */}
 
       <br></br>
+      <Row className="justify-content-center">
+        <Image src={fccTemp0} fluid />
+      </Row>
+      <Row className="justify-content-center">
+        <Image src={fccTemp1} fluid />
+      </Row>
+      <Row className="justify-content-center">
+        <Image src={fccTemp2} fluid />
+      </Row>
+      <Row className="justify-content-center">
+        <Image src={fccTemp3} fluid />
+      </Row>
+      <Row className="justify-content-center">
+        <Image src={fccTemp4} fluid />
+      </Row>
       <Row className="justify-content-center">
         <Image src={fccCert} fluid />
       </Row>
