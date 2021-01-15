@@ -11,7 +11,7 @@
 .FccFrontEndd img {
   display: block;
   margin: 0 auto;
-  width: 60%;
+  /* width: 60%; */
   padding-bottom: 50px;
   -webkit-filter: drop-shadow(7px 7px 5px #000000);
   filter: drop-shadow(7px 7px 5px #000000);
@@ -26,7 +26,7 @@
   .FccFrontEndd img {
     display: block;
     margin: 0 auto;
-    width: 40%;
+    /* width: 40%; */
     padding-bottom: 25px;
   }
 }

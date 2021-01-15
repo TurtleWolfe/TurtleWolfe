@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container, Row, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import fccCert from '../../images/fccCertificate.png';
 import './WordPress.css';
 
 
-export const About = () => {
+export const WrdPrss = () => {
   return (
-    <Container className="About justify-content-center">
+    <Container className="WrdPrss justify-content-center">
       {/* <ul>
           <li>
             <a href="https://codepen.io/TurtleWolf/">
@@ -112,10 +112,12 @@ export const About = () => {
 
       <br></br>
       <Row className="justify-content-center">
-        <Image src={fccCert} fluid />
+        <Col xs={10} md={9}>
+          <Image src={fccCert} fluid />
+        </Col>
       </Row>
     </Container>
   );
 };
 
-export default About;
+export default WrdPrss;

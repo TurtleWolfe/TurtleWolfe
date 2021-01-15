@@ -24,6 +24,7 @@ button {
 
 .App {
   text-align: center;
+  padding-top: 50px;
 }
 
 .App-logo {
@@ -139,10 +140,10 @@ button {
   /* font-family: 'Special Elite', cursive; */
 }
 
-/* .container {
-  margin-top: 5%;
-  padding-top: 56px;
-} */
+.container {
+  margin-top: 4%;
+  /* padding-top: 45px; */
+}
 
 @media screen and (min-width: 600px) {
   /* Screens above 600px width */

@@ -10,7 +10,7 @@ import WordPress from "./components/WordPress/WordPress";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Container } from 'react-bootstrap';
-import { Container, Row, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import fccCert from '../src/images/fccCertificate.png';
 
 
@@ -30,7 +30,7 @@ function App() {
               <Container id="welcome-section">
                 <p className="App-Orange">
                   <h1>
-                    Custom Apps & Sites for Small Companies
+                    Custom Apps for Small Companies
                   </h1>
                 </p>
                 <a
@@ -146,7 +146,9 @@ function App() {
 
                   <br></br>
                   <Row className="justify-content-center">
-                    <Image src={fccCert} fluid />
+                    <Col xs={10} md={9}>
+                      <Image src={fccCert} fluid />
+                    </Col>
                   </Row>
                 </Container>
 

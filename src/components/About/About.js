@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import fccCert from '../../images/fccCertificate.png';
 import UdemyAPI from '../../images/UdemyAPI.jpeg';
 import './About.css';
@@ -113,10 +113,14 @@ export const About = () => {
 
       <br></br>
       <Row className="justify-content-center">
-        <Image src={UdemyAPI} fluid />
+        <Col xs={10} md={9}>
+          <Image src={UdemyAPI} fluid />
+        </Col>
       </Row>
       <Row className="justify-content-center">
-        <Image src={fccCert} fluid />
+        <Col xs={10} md={9}>
+          <Image src={fccCert} fluid />
+        </Col>
       </Row>
     </Container>
   );

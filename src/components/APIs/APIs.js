@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container, Row, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import UdemyAPI from '../../images/UdemyAPI.jpeg';
 import './APIs.css';
 
 
 export const About = () => {
   return (
-    <Container className="About justify-content-center">
+    <Container className="API justify-content-center">
       {/* <ul>
           <li>
             <a href="https://codepen.io/TurtleWolf/">
@@ -29,7 +29,7 @@ export const About = () => {
 
       <Row as="a" // GitHub
         className="ispace App-link justify-content-center"
-        href="https://github.com/TurtleWolfe"
+        href="https://github.com/TurtleWolfe/DevCamperAPIv001"
         target="_blank"
         rel="noopener noreferrer"
         title="GitHub"
@@ -82,7 +82,9 @@ export const About = () => {
 
       <br></br>
       <Row className="justify-content-center">
-        <Image src={UdemyAPI} fluid />
+        <Col xs={10} md={9}>
+          <Image src={UdemyAPI} fluid />
+        </Col>
       </Row>
     </Container>
   );

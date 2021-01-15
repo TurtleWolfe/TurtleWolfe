@@ -4,8 +4,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
-// import { HashLink } from 'react-router-hash-link';
-import { NavHashLink } from 'react-router-hash-link';
 import './NavBar.css';
 const NavBar = ({ icon, iconFCC, title }) => {
   return (
@@ -15,7 +13,8 @@ const NavBar = ({ icon, iconFCC, title }) => {
         // className='lob'
         target="_blank"
         rel="noopener noreferrer"
-        title="TempLate Scaffolding for Free Code Camp Projects, with FontAwesome, React-Router & Analytics">
+        title="Custom Apps and Sites for Small Companies"
+      >
         <h5>
           <i className={iconFCC} /> {title} <i className={icon} />
         </h5>
@@ -23,98 +22,106 @@ const NavBar = ({ icon, iconFCC, title }) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav collapseOnSelect className="mr-auto">
-          <NavHashLink
+          <Nav.Link
             as={Link}
             to="/"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
+            title="Custom Apps and Sites for Small Companies"
             href="/"
             className='slab'
           >
             Home
-          </NavHashLink>
+          </Nav.Link>
 
-          {/* <NavHashLink
+          {/* <Nav.Link
             smooth
             to="/#projects"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
+        title="Custom Apps and Sites for Small Companies"
           // etc...
           >
           Link to Hash Fragment
-          </NavHashLink> */}
+          </Nav.Link> */}
 
           {/* APIs */}
-          <NavHashLink
+          <Nav.Link
             as={Link}
             to="/APIs"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
+            title="Application Programming Interface"
             href="/APIs"
             className='slab'
           >
-            APIs
-          </NavHashLink>
+            API
+          </Nav.Link>
 
           {/* FccD3 */}
-          <NavHashLink
+          <Nav.Link
             as={Link}
             to="/FccD3"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
+            title="Data Driven Documents"
             href="/FccD3"
             className='slab'
           >
-            FccD3
-          </NavHashLink>
+            D3
+          </Nav.Link>
 
           {/* FccFrontEnd */}
-          <NavHashLink
+          <Nav.Link
             as={Link}
             to="/FccFrontEnd"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
+            title="freeCodeCamp Front End Library Projects"
             href="/FccFrontEnd"
             className='slab'
           >
-            FccFrontEnd
-          </NavHashLink>
+            React
+          </Nav.Link>
 
           {/* SaStudio */}
-          <NavHashLink
+          <Nav.Link
             as={Link}
             to="/SaStudio"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
+            title="Landing Page for a local Client"
             href="/SaStudio"
             className='slab'
           >
             SaStudio
-          </NavHashLink>
+          </Nav.Link>
 
           {/* WordPress */}
-          <NavHashLink
+          <Nav.Link
             as={Link}
             to="/WordPress"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
+            title="Tech Blog @ ScriptHammer.com"
             href="/WordPress"
             className='slab'
           >
             WordPress
-          </NavHashLink>
+          </Nav.Link>
 
           {/* About */}
-          <NavHashLink
+          <Nav.Link
             as={Link}
             to="/about"
             activeClassName="selected"
             activeStyle={{ color: 'red' }}
+            title="Custom Apps and Sites for Small Companies"
             href="/about"
             className='slab'
           >
             About
-          </NavHashLink>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

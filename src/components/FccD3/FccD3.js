@@ -1,31 +1,12 @@
 import React from 'react';
-import { Container, Row, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import fccCert from '../../images/fccCertificate.png';
 import './FccD3.css';
 
 
 export const About = () => {
   return (
-    <Container className="About justify-content-center">
-      {/* <ul>
-          <li>
-            <a href="https://codepen.io/TurtleWolf/">
-              <i className="fa fa-codepen" aria-hidden="true" /> CodePen
-                </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/groups/266866570176327/">
-              <i className="fa fa-facebook-official" aria-hidden="true" />{" "}
-                  DangerousMinds
-                </a>
-          </li>
-          <li>
-            <a href="https://www.freecodecamp.org/turtlewolf">
-              <i className="fa fa-free-code-camp" aria-hidden="true" />{" "}
-                  FreeCodeCamp
-                </a>
-          </li>
-        </ul> */}
+    <Container className="FccD3 justify-content-center">
 
       <Row as="a" // GitHub
         className="ispace App-link justify-content-center"
@@ -80,39 +61,11 @@ export const About = () => {
         <i className="ispace fab fa-linkedin"></i> LinkedIn <i className="ispace fab fa-linkedin"></i>
       </Row>
 
-      {/* <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://fontawesome.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Awesome Fonts"
-      >
-        <i className="ispace fab fa-font-awesome-alt"></i> Font Awesome <i className="ispace fab fa-font-awesome-alt"></i>
-      </Row>
-
-      <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Markdown Cheatsheet"
-      >
-        <i className="ispace fab fa-markdown"></i> Markdown Cheatsheet <i className="ispace fab fa-markdown"></i>
-      </Row>
-
-      <Row as="a"
-        className="ispace App-link justify-content-center"
-        href="https://css-tricks.com/essential-meta-tags-social-media/"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="The Essential Meta Tags for Social Media"
-      >
-        <i className="ispace far fa-file-code"></i> Essential Meta Tags<i className="ispace far fa-file-code"></i>
-      </Row> */}
-
       <br></br>
       <Row className="justify-content-center">
-        <Image src={fccCert} fluid />
+        <Col xs={10} md={9}>
+          <Image src={fccCert} fluid />
+        </Col>
       </Row>
     </Container>
   );
