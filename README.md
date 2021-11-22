@@ -1,3 +1,83 @@
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/TurtleWolfe/turtlewolfe">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+<!-- <h3 align="center">project_title</h3> -->
+
+  <p align="center">
+    TurtleWolfe.com
+    <br />
+    <a href="https://github.com/TurtleWolfe/turtlewolfe"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://TurtleWolfe.com/">View Demo</a>
+    ·
+    <a href="https://github.com/TurtleWolfe/turtlewolfe/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/TurtleWolfe/turtlewolfe/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
 # [TurtleWolfe @ ScriptHammer.com](https://turtlewolfe.com/ 'Custom Apps for Small Companies')
 
 ## to create from scratch
@@ -67,177 +147,131 @@ npm run deploy
 
 [logo]: src/images/ScriptHammer.gif 'Tech Journal: ScriptHammer.com'
 
-## [React CookBook](https://subscription.packtpub.com/book/web_development/9781783980727/2/ch02lvl1sec08/creating-our-first-react-component 'By Carlos Santana Roldán August 2018 Over 66 recipes that cover UI development, animations, component architecture, routing, and testing with React')
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-```bash
-touch src/Home.js
-mkdir src/components
-mkdir src/components/Home
-mkdir src/shared
-mkdir src/shared/components
-mkdir src/shared/images
-mv src/App.js src/components
-mv src/App.css src/components
-mv src/App.test.js src/components
-mv src/logo.svg src/shared/images
-mv src/Home.js src/componets/Home
-touch src/components/Home/Home.css
-mkdir src/shared/components/layout
-touch src/shared/components/layout/NavBar.js
-# touch src/shared/components/layout/NavBar.css
-touch src/shared/components/layout/Header.js
-touch src/shared/components/layout/Footer.js
-touch src/shared/components/layout/Content.js
-npm i prop-types
-# Ch02 Section 09
-mkdir src/components/ToDo
-touch src/components/ToDo/Todo.js
-touch src/components/ToDo/List.js
-touch src/components/ToDo/Todo.css
-npm i uuid
-# npm i typescript
-npm i source-map-explorer
-# pomodoro Timer
-mkdir src/components/Pomodoro
-touch src/components/Pomodoro/Timer.js
-touch src/components/Pomodoro/Timer.css
-# Rourter
-npm i react-router-dom
-```
+### Built With
 
-## [Check Mark as Completed or Not: SitePoint Forums](https://www.sitepoint.com/community/t/react-cookbook-check-mark-as-completed-or-not/337875/2 'However, this way you would append the modified item to the list, not modify it in place; And either way, you’re still mutating the original item and only making a copy afterwards So try this instead:')
+- [React.js](https://reactjs.org/)
 
-<!-- ```bash
-npm install --save source-map-explorer
-``` -->
+- [ReactStrap](https://ReactStrap.com)
 
-## FCC projects
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-```bash
-# Quote Machine
-mkdir src/components/Quote
-touch src/components/Quote/Machine.js
-touch src/components/Quote/Machine.css
-```
+<!-- GETTING STARTED -->
 
-```bash
-# MarkDown PreViewer
-mkdir src/components/MarkDown
-touch src/components/MarkDown/PreViewer.js
-touch src/components/MarkDown/PreViewer.css
-```
+## Getting Started
 
-```bash
-# Calculator Calculator
-mkdir src/components/Calculator
-touch src/components/Calculator/Calculator.js
-touch src/components/Calculator/Calculator.css
-```
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-```bash
-# Drum DrumMachine
-mkdir src/components/Drum
-touch src/components/Drum/DrumMachine.js
-touch src/components/Drum/DrumMachine.css
-```
+### Prerequisites
 
-```bash
-# pomodoro StopWatch
-mkdir src/components/Pomodoro
-touch src/components/Pomodoro/StopWatch.js
-touch src/components/Pomodoro/StopWatch.css
-```
+This is an example of how to list things you need to use the software and how to install them.
 
-```bash
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
- npx create-react-app . --use-npm
- code .
- exit
- npm i gh-pages -D
- npm i react-bootstrap
- npm i react-router-dom
- npm install --save react-router-hash-link
- cd src
- cd ..
- mkdir src/components
- mkdir src/images
- rm -rf .git
- npm init
- git init
- git add .
- git commit -m "Custom Apps for Small Companies"
- git remote add origin git@github.com:TurtleWolfe/TurtleWolfe.git
- git push --set-upstream origin master
- npm run deploy
-```
+### Installation
 
-## Getting Started with Create React App
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/TurtleWolfe/turtlewolfe.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Available Scripts
+<!-- USAGE EXAMPLES -->
 
-In the project directory, you can run:
+## Usage
 
-#### `npm start`
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-#### `npm test`
+<!-- ROADMAP -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Roadmap
 
-#### `npm run build`
+- [] Feature 1
+- [] Feature 2
+- [] Feature 3
+  - [] Nested Feature
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+See the [open issues](https://github.com/TurtleWolfe/turtlewolfe/issues) for a full list of proposed features (and known issues).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- CONTRIBUTING -->
 
-#### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Learn More
+<!-- LICENSE -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-#### Code Splitting
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTACT -->
 
-#### Analyzing the Bundle Size
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - dev.TurtleWolfe@gmail.co@email_client.com
 
-#### Making a Progressive Web App
+Project Link: [https://github.com/TurtleWolfe/turtlewolfe](https://github.com/TurtleWolfe/turtlewolfe)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-#### Advanced Configuration
+<!-- ACKNOWLEDGMENTS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-#### Deployment
+- []()
+- []()
+- []()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-#### `npm run build` fails to minify
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[contributors-shield]: https://img.shields.io/github/contributors/TurtleWolfe/turtlewolfe.svg?style=for-the-badge
+[contributors-url]: https://github.com/TurtleWolfe/turtlewolfe/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TurtleWolfe/turtlewolfe.svg?style=for-the-badge
+[forks-url]: https://github.com/TurtleWolfe/turtlewolfe/network/members
+[stars-shield]: https://img.shields.io/github/stars/TurtleWolfe/turtlewolfe.svg?style=for-the-badge
+[stars-url]: https://github.com/TurtleWolfe/turtlewolfe/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TurtleWolfe/turtlewolfe.svg?style=for-the-badge
+[issues-url]: https://github.com/TurtleWolfe/turtlewolfe/issues
+[license-shield]: https://img.shields.io/github/license/TurtleWolfe/turtlewolfe.svg?style=for-the-badge
+[license-url]: https://github.com/TurtleWolfe/turtlewolfe/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/https://www.linkedin.com/in/jonathan-p-87796377/
+[product-screenshot]: images/screenshot.png
